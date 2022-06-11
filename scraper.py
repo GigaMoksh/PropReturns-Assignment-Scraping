@@ -6,11 +6,9 @@ from selenium.webdriver import ActionChains
 import time
 import pytesseract
 import csv
-from googletrans import Translator
 from typing import List
 
 
-translator = Translator()
 options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 driver = webdriver.Chrome(options=options)
